@@ -8,10 +8,10 @@
     content: "";
     clear: both;
     display: table;
-  };
+  }
   .logo{
     @include floatLeftElement;
-  };
+  }
   .menu{
     @include floatRightElement;
     .navbar_top{
@@ -23,8 +23,8 @@
           text-decoration: none;
           font-weight: bold;
           color: #58402C;
-        };
-      };
-    };
-  };
-};
+        }
+      }
+    }
+  }
+}
