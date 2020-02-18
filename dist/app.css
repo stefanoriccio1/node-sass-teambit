@@ -21,6 +21,10 @@ body {
   align-items: center;
 }
 
+.fa-chevron-down {
+  margin-left: 5px;
+}
+
 .navbar {
   width: 100%;
   height: 80px;
@@ -59,7 +63,7 @@ body {
   color: #58402C;
 }
 
-.navbar .menu .btn {
+.navbar .menu li.btn {
   padding: 5px 15px;
   line-height: 40px;
   color: #233569;
@@ -67,7 +71,7 @@ body {
   border: 1px solid #58402C;
 }
 
-.navbar .menu .btn a {
+.navbar .menu li.btn a {
   color: #233569;
 }
 

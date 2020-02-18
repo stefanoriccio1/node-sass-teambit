@@ -21,14 +21,14 @@
         a{
           text-decoration: none;
           font-weight: bold;
-          color: #58402C;
+          color: $maincolor;
         }
       }
     }
-    .btn{
+    li.btn{
       @include buttonElement;
       a{
-        color: #233569;
+        color: $secondColor;
       }
     }
   }
