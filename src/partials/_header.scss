@@ -1,17 +1,20 @@
 .navbar{
   width: 100%;
   height: 80px;
-  padding: 25px 0;
+  line-height: 80px;
   border-bottom: 1px solid black;
   font-size: $fontSize/1.5;
   &:after{
-   @include clearfix;
+    content: "";
+    clear: both;
+    display: table;
   }
   .logo{
-   @include floatLeftElement;
+   float: left;
+   padding-top: 8px;
   }
   .menu{
-    @include floatRightElement;
+    float: right;
     .navbar_top{
       list-style: none;
       li{
