@@ -89,3 +89,16 @@ body {
   color: #30488F;
 }
 
+.navbar .menu li.btn:hover {
+  background-color: #233569;
+  cursor: pointer;
+}
+
+.navbar .menu li.btn:hover .google-color {
+  display: none;
+}
+
+.navbar .menu li.btn:hover a {
+  color: white;
+}
+

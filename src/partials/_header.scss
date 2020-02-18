@@ -30,6 +30,16 @@
       a{
         color: #30488F;
       }
+      &:hover{
+        background-color: $secondColor;
+        cursor: pointer;
+        .google-color{
+          display: none;
+        }
+        a{
+          color: white;
+        }
+      }
     }
   }
 }
