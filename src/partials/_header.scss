@@ -5,12 +5,10 @@
   border-bottom: 1px solid black;
   font-size: $fontSize/1.5;
   &:after{
-    content: "";
-    clear: both;
-    display: table;
+   @include clearfix;
   }
   .logo{
-    @include floatLeftElement;
+   @include floatLeftElement;
   }
   .menu{
     @include floatRightElement;
