@@ -1,0 +1,13 @@
+@mixin floatLeftElement {
+  float: left;
+};
+@mixin floatRightElement{
+  float: right;
+};
+@mixin button{
+  width: 70px;
+  padding: 10px;
+  color: #30488F;
+  border-radius: 10px;;
+  border: 1px solid #58402C;
+}
