@@ -17,6 +17,19 @@ body{
   justify-content: center;
   align-items: center;
 }
+// navbar
 .fa-chevron-down{
   margin-left: 5px;
+}
+.google{
+  margin-right: 5px;
+}
+
+.solutions{
+  position: relative;
+}
+.drop_down{
+  position: absolute;
+  display: none;
+  top: 10;
 }

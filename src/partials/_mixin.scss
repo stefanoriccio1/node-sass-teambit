@@ -5,11 +5,11 @@
   float: right;
 }
 @mixin buttonElement{
-  padding: 5px 15px;
+  padding: 0 15px;
   line-height: 40px;
   color: #233569;
   border-radius: 10px;
-  border: 1px solid $maincolor;
+  border: 1px solid #30488F;
 }
 @mixin clearfix{
   content: "";
