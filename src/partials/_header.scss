@@ -10,7 +10,7 @@
     display: table;
   }
   .logo{
-   float: left;
+   @include floatLeftElement;
    padding-top: 8px;
   }
   .menu{
@@ -24,6 +24,9 @@
           text-decoration: none;
           font-weight: bold;
           color: #58402C;
+        }
+        .btn{
+          @include btn;
         }
       }
     }
