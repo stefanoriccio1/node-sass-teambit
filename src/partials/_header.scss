@@ -1,0 +1,12 @@
+.navbar{
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid, black;
+  background-color: blue;
+  &:after{
+    content: "";
+    clear: both;
+    display: table;
+  };
+
+}
