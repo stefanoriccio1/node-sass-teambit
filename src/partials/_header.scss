@@ -5,16 +5,14 @@
   border-bottom: 1px solid black;
   font-size: $fontSize/1.5;
   &:after{
-    content: "";
-    clear: both;
-    display: table;
+    @include clearfix;
   }
   .logo{
    @include floatLeftElement;
    padding-top: 8px;
   }
   .menu{
-    float: right;
+    @include floatRightElement;
     .navbar_top{
       list-style: none;
       li{
