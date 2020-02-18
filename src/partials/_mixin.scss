@@ -4,11 +4,10 @@
 @mixin floatRightElement{
   float: right;
 }
-@mixin btn{
-  width: 70px;
-  padding: 10px;
-  display: inline-block;
-  color: #30488F;
+@mixin buttonElement{
+  padding: 5px 15px;
+  line-height: 40px;
+  color: #233569;
   border-radius: 10px;
   border: 1px solid $maincolor;
 }

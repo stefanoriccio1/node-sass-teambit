@@ -8,11 +8,12 @@ body{
   color: $maincolor;
   font-size: $fontSize;
 }
+.wrapper{
+  width: 90%;
+  margin: auto;
+}
 .flex{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.container{
-  margin: 0 30px;
-};

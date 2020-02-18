@@ -10,14 +10,15 @@ body {
   font-size: 20px;
 }
 
+.wrapper {
+  width: 90%;
+  margin: auto;
+}
+
 .flex {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.container {
-  margin: 0 30px;
 }
 
 .navbar {
@@ -58,12 +59,15 @@ body {
   color: #58402C;
 }
 
-.navbar .menu .navbar_top li .btn {
-  width: 70px;
-  padding: 10px;
-  display: inline-block;
-  color: #30488F;
+.navbar .menu .btn {
+  padding: 5px 15px;
+  line-height: 40px;
+  color: #233569;
   border-radius: 10px;
   border: 1px solid #58402C;
+}
+
+.navbar .menu .btn a {
+  color: #233569;
 }
 
