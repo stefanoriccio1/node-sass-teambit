@@ -40,6 +40,10 @@ body {
   top: 10;
 }
 
+.wrapper_jumbotron {
+  justify-content: space-between;
+}
+
 .slack {
   width: 18px;
   height: 18px;
