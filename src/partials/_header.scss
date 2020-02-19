@@ -47,11 +47,17 @@
 // /header top
 // jumbotron
 .wrapper_jumbotron{
+  .jumbotron_left{
+    .buttons{
+      .button_jumbotron{
+        @include buttonJumbotron;
+      }
+    }
+  }
   .jumbotron_right{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
     img{
       width: 500px;
     }

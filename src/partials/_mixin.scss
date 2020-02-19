@@ -16,3 +16,13 @@
   clear: both;
   display: table;
 }
+@mixin buttonJumbotron{
+ padding: 0 15px;
+ line-height: 30px;
+ text-align: center;
+ vertical-align: middle;
+ border-radius: 10px;
+ border: 1px solid black;
+ color: white;
+ background-color: #2F488F;
+}
