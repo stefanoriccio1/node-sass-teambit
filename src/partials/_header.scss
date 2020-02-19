@@ -1,3 +1,4 @@
+// header top
 .navbar{
   width: 100%;
   height: 80px;
@@ -40,6 +41,19 @@
           color: white;
         }
       }
+    }
+  }
+}
+// /header top
+// jumbotron
+.wrapper_jumbotron{
+  .jumbotron_right{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    img{
+      width: 500px;
     }
   }
 }

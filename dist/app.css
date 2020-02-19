@@ -102,3 +102,13 @@ body {
   color: white;
 }
 
+.wrapper_jumbotron .jumbotron_right {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper_jumbotron .jumbotron_right img {
+  width: 500px;
+}
+
