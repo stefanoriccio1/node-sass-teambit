@@ -40,10 +40,6 @@ body {
   top: 10;
 }
 
-.wrapper_jumbotron {
-  justify-content: space-between;
-}
-
 .slack {
   width: 18px;
   height: 18px;
@@ -113,6 +109,14 @@ body {
   color: white;
 }
 
+.wrapper_jumbotron {
+  margin-top: 100px;
+}
+
+.wrapper_jumbotron h2 {
+  font-size: 40px;
+}
+
 .wrapper_jumbotron .jumbotron_left .buttons .button_jumbotron {
   padding: 0 15px;
   line-height: 30px;
@@ -131,6 +135,6 @@ body {
 }
 
 .wrapper_jumbotron .jumbotron_right img {
-  width: 500px;
+  width: 600px;
 }
 

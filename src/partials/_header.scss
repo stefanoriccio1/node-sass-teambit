@@ -47,6 +47,10 @@
 // /header top
 // jumbotron
 .wrapper_jumbotron{
+  h2{
+    font-size: $h2Size;
+  }
+  margin-top: 100px;
   .jumbotron_left{
     .buttons{
       .button_jumbotron{
@@ -59,7 +63,7 @@
     align-items: center;
     justify-content: center;
     img{
-      width: 500px;
+      width: 600px;
     }
   }
 }
